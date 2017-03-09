@@ -5,9 +5,9 @@ A dead-simple build-task runner inspired by [this](https://medium.com/@pakastin/
 ## Installation
 
 ```sh
-npm install -g pkgbuild
+npm install --save-dev pkgbuild
 # or
-yarn global add pkgbuild
+yarn add --dev pkgbuild
 ```
 
 ## Use
@@ -27,6 +27,14 @@ Depending on whether you pass the `-w/--watch` option into pkgbuild, pkgbuild wi
 
 1. the tasks prefixed with `pkg://...` (if the `-w/--watch` option was omitted), or
 2. `pkg*://...` (if the `-w/--watch` option was included)
+
+Now you can run the following command in your shell:
+
+```sh
+$ ./node_modules/.bin/pkgbuild
+# or
+$ yarn run pkgbuild
+```
 
 That's it!
 
