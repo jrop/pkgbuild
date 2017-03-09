@@ -1,6 +1,6 @@
 {
   "name": "pkgbuild",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "license": "MIT",
   "bin": {
@@ -20,7 +20,7 @@
     "babel-cli": "^6.23.0",
     "babel-preset-env": "^1.2.1"
   },
-  "repo": "jrop/pkgbuild",
+  "repository": "jrop/pkgbuild",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }
