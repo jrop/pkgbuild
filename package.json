@@ -1,0 +1,27 @@
+{
+  "name": "pkgbuild",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "bin": {
+    "pkgbuild": "lib/index.js",
+    "node-pkgbuild": "lib/index.js"
+  },
+  "scripts": {
+    "pkg://main": "babel -d lib/ src/",
+    "pkg*://main": "babel -w -d lib/ src/",
+    "prepublish": "npm run \"pkg://main\""
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.2.1"
+  },
+  "repo": "jrop/pkgbuild",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
