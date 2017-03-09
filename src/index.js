@@ -24,7 +24,7 @@ function run(variant) {
 	track(proc.stdout)
 	track(proc.stderr, 'err')
 	proc.on('exit', code => {
-		console.log(color(`(${variant}:exit) - ${code}`))
+		console.log(color(`(${variantName}:exit) - ${code}`))
 		if (code != 0)
 			process.exitCode = 1
 	})
