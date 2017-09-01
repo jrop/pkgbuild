@@ -1,5 +1,7 @@
 # pkgbuild
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jrop/pkgbuild.svg)](https://greenkeeper.io/)
+
 A dead-simple build-task runner inspired by [this](https://medium.com/@pakastin/you-might-not-need-a-build-tool-ac3c1a8cfaac#.99jr2lvrk) blog entry on Medium.
 
 ## Installation
